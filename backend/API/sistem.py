@@ -115,7 +115,7 @@ def save_upload_file(upload_file: UploadFile) -> str:
         f.write(upload_file.file.read())
     return filename
 
-app = FastAPI(title="Mini Threads API (Contoh)")
+app = FastAPI(title="And")
 
 app.mount("/uploads", StaticFiles(directory=UPLOAD_DIR), name="uploads")
 
