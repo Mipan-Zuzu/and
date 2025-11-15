@@ -29,7 +29,7 @@ Proyek ini menggabungkan teknologi modern di sisi **frontend** dan **backend** u
 
 ## › Teknologi yang Digunakan
 
-- **Frontend:** React, TailwindCSS, Vite (atau Next.js jika digunakan)
+- **Frontend:** React, TailwindCSS, Vite 
 - **Backend:** Node.js, Express, Socket.io
 - **Database:** MongoDB / PostgreSQL (opsional)
 - **Deployment:** Vercel, Render, atau platform pilihan kamu
