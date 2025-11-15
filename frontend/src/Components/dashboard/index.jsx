@@ -1,24 +1,24 @@
-import "./index.css";
-import Navbar from "./Components/navbar/index";
-import Items from "./Components/Items";
-import UserIcon from "./Components/Element/icon/UserIcon";
-import Friend from "./Components/Friend"
-import AlgoritmaFriend from "./Components/AlgoritmaFriend"
 import { Fragment } from "react";
+import "../../index.css";
+import Navbar from "../navbar/index";
+import Items from "../Items";
+import UserIcon from "../Element/icon/UserIcon";
+import Friend from "../Friend"
+import AlgoritmaFriend from "../AlgoritmaFriend"
 
-function App() {
+const Dashboard = () => {
   return (
-    <>
+    <Fragment>
       <Navbar />
       <Items />
       <VibesTitle />
       <DaftarText>Teman anda di &and</DaftarText>
       <Friend />
       <DaftarText>Disarankan untuk anda</DaftarText>
-      <AlgoritmaFriend/>
-    </>
+      <AlgoritmaFriend />
+    </Fragment>
   );
-}
+};
 
 const DaftarText = (props) => {
   const {children} = props
@@ -46,4 +46,4 @@ const VibesTitle = () => {
   );
 };
 
-export default App;
+export default Dashboard;
